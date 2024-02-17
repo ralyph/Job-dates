@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Job Dates</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="Interview Job Dates" content="" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <h2>Appointments Generator</h2>
+    <label for="num-citas">How many dates do you need?</label>
+    <input type="number" id="num-citas" name="num-citas" min="1" value="1"><br>
+    <div id="fechas"></div>
+    <button onclick="generarFechas()">Generate Dates</button><br>
+    <p id="resultado"></p>
+    <button onclick="mostrarValores()">Generate Text</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    background-color: #FBF9F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    margin-top: -300px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-family: Times, serif;
+    font-size: 50px
+}
+h2 {
+    font-weight: 600;
+    margin-top: 10px;
+}
+.wrapper {
+    background-color: #AAD7D9;
+    padding: 13px;
+    border-radius: 7px;
+    max-width: 493px;
+}
+.dates {
+    display: flex;
+    margin-bottom: 7px;
+    gap: 7px;
+}
+#dates-input, #week-input {
+    max-width: 60px;
+}
+button {
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 49.3px;
+    margin-right: 49.3px;
+    padding: 5px;
+}
+#result {
+    display: none;
+    margin-top: 20px;
+}
+/* fila 8/*
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    input[type="date"],
+    input[type="time"] {
+        margin-bottom: 10px;
+    }
+    button {
+        padding: 5px 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #0056b3;
+    }
+</style>
